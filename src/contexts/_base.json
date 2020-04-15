@@ -93,7 +93,10 @@
       }
     },
     {
-      "name": "contextManager"
+      "name": "contextManager",
+      "options": {
+        "toolToOpenOnContextChange": "mapLegend"
+      }
     },
     {
       "name": "about"
@@ -116,6 +119,7 @@
       "name": "mapTools",
       "options": {
         "selectedTabAtOpening": "legend",
+        "allowShowAllLegends": true,
         "toggleLegendOnVisibilityChange": false,
         "updateLegendOnResolutionChange": false,
         "layerListControls": {
